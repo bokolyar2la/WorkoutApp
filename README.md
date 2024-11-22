@@ -1,33 +1,32 @@
-Workout App
-About
-Workout App is a web application designed to help users track and manage their fitness routines. With a focus on user-friendly design, this app allows users to easily create, modify, and monitor their workouts, providing a comprehensive tool for personal fitness management.
+# WorkoutApp
 
-Features
-User Authentication: Secure login and registration system to manage user accounts.
-Workout Tracking: Users can add and track different types of workouts and exercises.
-Progress Monitoring: Includes features to help users monitor their progress over time.
-Responsive Design: Ensures a good user experience on both desktop and mobile devices.
-Technologies
-Frontend: React, Redux for state management, and Sass for styling.
-Backend: Node.js with Express for the server, Prisma as the ORM, and PostgreSQL for the database.
-Deployment: The application is set up to be containerized using Docker for easy deployment.
-Setup
-To get this project up and running on your local machine:
+## Description
+WorkoutApp is a fitness planning and tracking application that allows users to create, customize, and monitor their fitness goals. The application is split into two main parts: the front-end (client side) and the back-end (server side).
 
-Clone the repository:
+## Features
+- **User Authentication and Registration**: Allows users to register and log in to access their workouts.
+- **Workout Management**: Users can create, view, edit, and delete scheduled workouts.
+- **Progress Tracking**: The app provides features to track the completion of exercises and the user's progress.
+- **User Interface**: A clean and intuitive interface that makes navigation and usage of the application straightforward.
 
-git clone https://github.com/bokolyar2la/workoutApp.git
-Install dependencies:
+## Technologies
+- **Front-end**: React, Redux for state management, and Sass for styling.
+- **Back-end**: Node.js with Express for the server, Prisma as the ORM, and PostgreSQL for the database.
+- **Deployment**: The application is set up to be containerized using Docker for easy deployment.
 
+## Local Setup
+To run the application locally, follow the instructions below:
+
+### Dependencies
 For the backend:
 cd workout-app-back
 yarn install
+
 For the frontend:
 cd wa-client
 yarn install
-Set up the environment variables:
 
-Copy the .env.example file to .env and fill in the necessary details such as the database URL and any API keys.
+###
 Start the development servers:
 
 For the backend:
@@ -35,5 +34,8 @@ yarn dev
 For the frontend:
 cd wa-client
 yarn start
-Contribution
-Contributions to the project are welcome! You can contribute by improving the code, adding new features, or reporting and fixing bugs.
+
+### Clone the Repository
+bash
+git clone https://github.com/bokolyar2la/workoutApp.git
+cd workoutApp
