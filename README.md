@@ -1,7 +1,7 @@
 # WorkoutApp
 
 ## Description
-WorkoutApp is a fitness planning and tracking application that allows users to create, customize, and monitor their fitness goals. The application is split into two main parts: the front-end (client side) and the back-end (server side).
+Fitness planning and tracking single page application that allows users to create, customize, and monitor their fitness goals. The application is split into two main parts: the front-end (client side) and the back-end (server side).
 
 ## Features
 - **User Authentication and Registration**: Allows users to register and log in to access their workouts.
